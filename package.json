@@ -10,6 +10,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "bootstrap": "^4.2.1",
     "vue": "^2.5.22"
   },
   "devDependencies": {
