@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="chatApp">
     <Chat/>
   </div>
 </template>
@@ -8,7 +8,7 @@
 import Chat from './components/Chat.vue'
 
 export default {
-  name: 'app',
+  name: 'chatApp',
   components: {
     Chat
   }
@@ -16,7 +16,7 @@ export default {
 </script>
 
 <style>
-#app {
+#chatApp {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
